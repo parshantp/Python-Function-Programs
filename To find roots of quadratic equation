@@ -1,0 +1,9 @@
+
+# Python program to find roots of quadratic equation
+
+import math
+
+# function for finding roots
+def findroots(a,b,c):
+  df = b*b - 4*a*c
+  sv = math.sqrt(abs(df))
