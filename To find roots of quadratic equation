@@ -5,5 +5,8 @@ import math
 
 # function for finding roots
 def findroots(a,b,c):
-  df = b*b - 4*a*c
-  sv = math.sqrt(abs(df))
+  dis_form = b*b - 4*a*c
+  sqrt_val = math.sqrt(abs(dis_form))
+
+  if dis_form > 0:
+    print()
