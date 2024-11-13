@@ -12,3 +12,6 @@ def findroots(a,b,c):
     print("real and different roots")
     print((-b - sqrt_val) / (2*a))
     print((-b + sqrt_val) / (2*a))
+
+  elif dis_form == 0:
+    print("real and same roots")
