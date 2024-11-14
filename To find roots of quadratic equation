@@ -29,3 +29,6 @@ c = int(input("Enter c:-"))
 # If a is 0
 if a==0:
   print("Input correct quadratic equation")
+
+else:
+  findroots(a,b,c)
