@@ -25,3 +25,7 @@ def findroots(a,b,c):
 a = int(input("Enter a:-"))
 b = int(input("Enter b:-"))
 c = int(input("Enter c:-"))
+
+# If a is 0
+if a==0:
+  print("Input correct quadratic equation")
