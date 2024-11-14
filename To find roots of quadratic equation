@@ -21,3 +21,7 @@ def findroots(a,b,c):
     print("Complex roots")
     print(-b/(2*a),"+i",sqrt_val)
     print(-b/(2*a),"-i",sqrt_val)
+
+a = int(input("Enter a:-"))
+b = int(input("Enter b:-"))
+c = int(input("Enter c:-"))
