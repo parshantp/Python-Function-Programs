@@ -18,3 +18,5 @@ def lcm(x,y):
 # taking input from user
 x = int(input("Enter first number"))
 y = int(input("enter second number"))
+
+print(f"The LCM of {x} and {y} is {lcm(x,y)}")
