@@ -13,3 +13,8 @@ def lcm(x,y):
       break
     greater += 1
   return lcm
+
+
+# taking input from user
+x = int(input("Enter first number"))
+y = int(input("enter second number"))
