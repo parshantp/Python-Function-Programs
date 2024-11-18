@@ -1,0 +1,7 @@
+# defining a function
+
+def lcm(x,y):
+  selecting the greater number
+  if x>y:
+    greater = x
+  else:
