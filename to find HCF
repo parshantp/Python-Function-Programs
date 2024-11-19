@@ -1,0 +1,9 @@
+
+# defining a function
+
+def hcf(x,y):
+  # selecting the smaller number
+  if x>y:
+    smaller = y
+  else:
+    smaller = x
